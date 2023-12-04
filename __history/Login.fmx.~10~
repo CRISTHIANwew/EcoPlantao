@@ -1,0 +1,142 @@
+object frmLogin: TfrmLogin
+  Left = 0
+  Top = 0
+  ClientHeight = 544
+  ClientWidth = 600
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claSnow
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 100.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Size.Width = 600.000000000000000000
+    Size.Height = 544.000000000000000000
+    Size.PlatformDefault = False
+    object Text: TText
+      Align = Top
+      Position.X = 10.000000000000000000
+      Position.Y = 100.000000000000000000
+      Size.Width = 580.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'EcoPlant'#227'o'
+      TextSettings.Font.Size = 30.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claMidnightblue
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Horizontal
+      TabOrder = 2
+      Position.X = 10.000000000000000000
+      Position.Y = 288.000000000000000000
+      Size.Width = 580.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label1: TLabel
+      Align = Horizontal
+      StyledSettings = [Family, Size, Style]
+      Position.X = 10.000000000000000000
+      Position.Y = 257.000000000000000000
+      Size.Width = 580.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = xFFB7B7B7
+      Text = 'Usuario'
+      TabOrder = 7
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Horizontal
+      TabOrder = 1
+      Position.X = 10.000000000000000000
+      Position.Y = 384.000000000000000000
+      Size.Width = 580.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      object CheckBox2: TCheckBox
+        Position.X = 144.000000000000000000
+        TabOrder = 0
+        Text = 'CheckBox2'
+      end
+    end
+    object Label2: TLabel
+      Align = Horizontal
+      StyledSettings = [Family, Size, Style]
+      Position.X = 10.000000000000000000
+      Position.Y = 353.000000000000000000
+      Size.Width = 580.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = xFFB7B7B7
+      Text = 'Senha'
+      TabOrder = 3
+    end
+    object RoundRect1: TRoundRect
+      Align = Horizontal
+      Fill.Color = claMidnightblue
+      Position.X = 10.000000000000000000
+      Position.Y = 464.000000000000000000
+      Size.Width = 580.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      object btn_entrar: TButton
+        StyledSettings = [Family, Size, Style]
+        Position.X = 23.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 281.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Text = 'Entrar'
+        TextSettings.FontColor = claWhite
+        TintColor = claMidnightblue
+      end
+    end
+    object Label3: TLabel
+      Align = Horizontal
+      StyledSettings = [Family, Style]
+      Position.X = 10.000000000000000000
+      Position.Y = 257.000000000000000000
+      Size.Width = 580.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.FontColor = xFFB7B7B7
+      Text = 'Usuario'
+      TabOrder = 6
+    end
+    object Label4: TLabel
+      Align = Horizontal
+      StyledSettings = [Family, Style]
+      Position.X = 10.000000000000000000
+      Position.Y = 257.000000000000000000
+      Size.Width = 580.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.FontColor = xFFB7B7B7
+      Text = 'Usuario'
+      TabOrder = 5
+    end
+    object Label5: TLabel
+      Align = Horizontal
+      StyledSettings = [Family, Style]
+      Position.X = 10.000000000000000000
+      Position.Y = 424.000000000000000000
+      Size.Width = 580.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.FontColor = xFFB7B7B7
+      TextSettings.HorzAlign = Center
+      Text = 'Vers'#227'o 1.0.0'
+      TabOrder = 4
+    end
+  end
+end

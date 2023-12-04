@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/12/04 16:37:37.291,=C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/04 16:38:56.457,C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\EcoPlantao\Principal.fmx=C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2023/12/04 16:38:56.457,C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\EcoPlantao\Principal.pas=C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/04 16:40:18.000,=C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/04 16:40:34.735,C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\EcoPlantao\DataModule.pas=C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/04 16:40:34.735,C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\EcoPlantao\DataModule.dfm=C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/12/04 16:44:08.466,=C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/04 16:44:29.846,C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\EcoPlantao\Login.pas=C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/04 16:44:29.846,C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\EcoPlantao\Login.fmx=C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2023/12/04 16:57:36.943,C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\EcoPlantao\EcoPlantao.dproj=C:\Users\ECO-03\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile Android64="YPLF7HHEU4O77DOJ" Android="YPLF7HHEU4O77DOJ"/>
+  </ActiveMobileDevice>
+</BorlandProject>

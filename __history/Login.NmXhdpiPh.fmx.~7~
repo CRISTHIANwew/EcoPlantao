@@ -1,0 +1,66 @@
+inherited frmLogin_NmXhdpiPh: TfrmLogin_NmXhdpiPh
+  ClientHeight = 616
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited Rectangle1: TRectangle
+    Padding.Left = 20.000000000000000000
+    Padding.Right = 20.000000000000000000
+    Size.Width = 400.000000000000000000
+    Size.Height = 616.000000000000000000
+    inherited Text: TText
+      Position.X = 20.000000000000000000
+      Size.Width = 360.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited Edit1: TEdit
+      Position.X = 20.000000000000000000
+      Size.Width = 360.000000000000000000
+    end
+    inherited Label1: TLabel
+      StyledSettings = [Family, Style]
+      Position.X = 20.000000000000000000
+      Size.Width = 360.000000000000000000
+      TextSettings.Font.Size = 15.000000000000000000
+    end
+    inherited Edit2: TEdit
+      Position.X = 20.000000000000000000
+      Size.Width = 360.000000000000000000
+      inherited CheckBox2: TCheckBox
+        Align = FitRight
+        Position.X = 317.894714355468800000
+        Size.Width = 42.105285644531250000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        Text = ''
+      end
+    end
+    inherited Label2: TLabel
+      StyledSettings = [Family, Style]
+      Position.X = 20.000000000000000000
+      Size.Width = 360.000000000000000000
+      TextSettings.Font.Size = 15.000000000000000000
+    end
+    inherited RoundRect1: TRoundRect
+      Position.X = 20.000000000000000000
+      Position.Y = 567.000000000000000000
+      Size.Width = 360.000000000000000000
+      inherited btn_entrar: TButton
+        Align = Center
+        Size.Width = 295.000000000000000000
+      end
+    end
+    inherited Label3: TLabel
+      Position.X = 20.000000000000000000
+      Size.Width = 360.000000000000000000
+    end
+    inherited Label4: TLabel
+      Position.X = 20.000000000000000000
+      Size.Width = 360.000000000000000000
+    end
+    inherited Label5: TLabel
+      Position.X = 20.000000000000000000
+      Position.Y = 472.000000000000000000
+      Size.Width = 360.000000000000000000
+    end
+  end
+end

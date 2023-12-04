@@ -1,0 +1,13 @@
+inherited frmLogin_LgXhdpiPh: TfrmLogin_LgXhdpiPh
+  ClientHeight = 696
+  ClientWidth = 448
+  DesignerMasterStyle = 3
+  inherited Rectangle1: TRectangle
+    Size.Width = 448.000000000000000000
+    Size.Height = 696.000000000000000000
+    inherited Text: TText
+      Size.Width = 448.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end
