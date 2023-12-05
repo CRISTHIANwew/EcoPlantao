@@ -1,0 +1,134 @@
+object frmLogin: TfrmLogin
+  Left = 0
+  Top = 0
+  ClientHeight = 700
+  ClientWidth = 368
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claSnow
+    Padding.Left = 20.000000000000000000
+    Padding.Top = 100.000000000000000000
+    Padding.Right = 20.000000000000000000
+    Size.Width = 368.000000000000000000
+    Size.Height = 700.000000000000000000
+    Size.PlatformDefault = False
+    object Text: TText
+      Align = Top
+      Position.X = 20.000000000000000000
+      Position.Y = 100.000000000000000000
+      Size.Width = 328.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'EcoPlant'#227'o'
+      TextSettings.Font.Size = 30.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claMidnightblue
+    end
+    object Edt_user: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Horizontal
+      TabOrder = 2
+      Position.X = 20.000000000000000000
+      Position.Y = 288.000000000000000000
+      Size.Width = 328.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      CharCase = ecUpperCase
+    end
+    object Label1: TLabel
+      Align = Horizontal
+      StyledSettings = [Family, Size, Style]
+      Position.X = 20.000000000000000000
+      Position.Y = 257.000000000000000000
+      Size.Width = 328.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = xFFB7B7B7
+      Text = 'Usuario'
+      TabOrder = 5
+    end
+    object edt_pass: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Horizontal
+      TabOrder = 1
+      Position.X = 20.000000000000000000
+      Position.Y = 384.000000000000000000
+      Size.Width = 328.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      CharCase = ecUpperCase
+      object CheckBox2: TCheckBox
+        Align = FitRight
+        Position.X = 300.000000000000000000
+        Size.Width = 28.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object Label2: TLabel
+      Align = Horizontal
+      StyledSettings = [Family, Size, Style]
+      Position.X = 20.000000000000000000
+      Position.Y = 353.000000000000000000
+      Size.Width = 328.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = xFFB7B7B7
+      Text = 'Senha'
+      TabOrder = 3
+    end
+    object RoundRect1: TRoundRect
+      Align = Horizontal
+      Fill.Color = claMidnightblue
+      Position.X = 20.000000000000000000
+      Position.Y = 632.000000000000000000
+      Size.Width = 328.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      object btn_entrar: TButton
+        Align = HorzCenter
+        StyledSettings = [Family, Size, Style]
+        Position.X = 23.000000000000000000
+        Size.Width = 281.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Text = 'Entrar'
+        TextSettings.FontColor = claWhite
+        TintColor = claMidnightblue
+        OnClick = btn_entrarClick
+      end
+    end
+    object Label5: TLabel
+      Align = Horizontal
+      StyledSettings = [Family, Style]
+      Position.X = 20.000000000000000000
+      Position.Y = 561.000000000000000000
+      Size.Width = 328.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.FontColor = xFFB7B7B7
+      TextSettings.HorzAlign = Center
+      Text = 'Vers'#227'o 1.0.0'
+      TabOrder = 4
+    end
+    object CheckBox1: TCheckBox
+      Align = Horizontal
+      StyledSettings = [Family, Size, Style]
+      Position.X = 20.000000000000000000
+      Position.Y = 432.000000000000000000
+      Size.Width = 328.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Text = 'Guardar dados ?'
+      TextSettings.FontColor = xFFB7B7B7
+    end
+  end
+end

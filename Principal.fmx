@@ -1,13 +1,24 @@
 object frmPrincipal: TfrmPrincipal
   Left = 912
   Top = 263
-  ClientHeight = 584
+  ClientHeight = 684
   ClientWidth = 364
-  Position = Designed
+  Position = ScreenCenter
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   Left = 912
   Top = 263
   DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claSnow
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 10.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 10.000000000000000000
+    Size.Width = 364.000000000000000000
+    Size.Height = 684.000000000000000000
+    Size.PlatformDefault = False
+  end
 end

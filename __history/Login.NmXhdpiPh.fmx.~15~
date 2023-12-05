@@ -1,0 +1,31 @@
+inherited frmLogin_NmXhdpiPh: TfrmLogin_NmXhdpiPh
+  ClientHeight = 616
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited Rectangle1: TRectangle
+    Size.Width = 400.000000000000000000
+    Size.Height = 616.000000000000000000
+    inherited Text: TText
+      Size.Width = 380.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited Edit1: TEdit
+      Size.Width = 380.000000000000000000
+    end
+    inherited Label1: TLabel
+      Size.Width = 380.000000000000000000
+    end
+    inherited Edit2: TEdit
+      Size.Width = 380.000000000000000000
+    end
+    inherited Label2: TLabel
+      Size.Width = 380.000000000000000000
+    end
+    inherited RoundRect1: TRoundRect
+      Size.Width = 380.000000000000000000
+    end
+    inherited Label5: TLabel
+      Size.Width = 380.000000000000000000
+    end
+  end
+end

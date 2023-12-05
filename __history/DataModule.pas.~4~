@@ -1,0 +1,53 @@
+unit DataModule;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Stan.Param,
+  FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt, FireDAC.FMXUI.Wait,
+  FireDAC.Stan.ExprFuncs, FireDAC.Phys.SQLiteWrapper.Stat,
+  FireDAC.Phys.SQLiteDef, FireDAC.Phys.SQLite, FireDAC.Comp.UI, Data.DB,
+  FireDAC.Comp.DataSet, FireDAC.Comp.Client, System.IOUtils;
+
+type
+  TDM = class(TDataModule)
+    DM: TFDConnection;
+    SQL: TFDQuery;
+    FDGUIxWaitCursor1: TFDGUIxWaitCursor;
+    FDPhysSQLiteDriverLink1: TFDPhysSQLiteDriverLink;
+    procedure DataModuleCreate(Sender: TObject);
+  private
+    procedure criabanco;
+  public
+    User: string;
+    CorrectUser: string;
+    password: string;
+    Correctpassword: string;
+  end;
+
+var
+  DM: TDM;
+
+implementation
+
+{%CLASSGROUP 'FMX.Controls.TControl'}
+
+{$R *.dfm}
+
+procedure TDM.Criabanco;
+  var
+  Caminho: string;
+begin
+   Caminho := System.IOUtils.TPath.GetDocumentsPath;
+end;
+
+procedure TDM.DataModuleCreate(Sender: TObject);
+begin
+   CorrectUser:= 'SUPORTE';
+   Correctpassword:= '123456';
+end;
+
+end.
+

@@ -11,19 +11,26 @@ type
   TfrmLogin = class(TForm)
     Rectangle1: TRectangle;
     Text: TText;
-    Edit1: TEdit;
-    Label1: TLabel;
-    Edit2: TEdit;
+    Edt_user: TEdit;
+    Z: TLabel;
+    edt_pass: TEdit;
     Label2: TLabel;
     RoundRect1: TRoundRect;
     btn_entrar: TButton;
     Label5: TLabel;
-    CheckBox2: TCheckBox;
+    bx: TCheckBox;
     CheckBox1: TCheckBox;
+    Circle1: TCircle;
+    Circle2: TCircle;
+    procedure btn_entrarClick(Sender: TObject);
+    procedure bxClick(Sender: TObject);
   private
-    { Private declarations }
+
   public
-    { Public declarations }
+    User: string;
+    CorrectUser: string;
+    password: string;
+    Correctpassword: string;
   end;
 
 var
@@ -32,6 +39,42 @@ var
 implementation
 
 {$R *.fmx}
-{$R *.NmXhdpiPh.fmx ANDROID}
+
+uses DataModule, Principal;
+
+procedure TfrmLogin.btn_entrarClick(Sender: TObject);
+var i: integer;
+begin
+  i:=0;
+
+  if Edt_user.Text='SUPERVISOR' then
+  begin
+   i:=i+1;
+  end;
+
+  if edt_pass.Text='ECO123456' then
+  begin
+    i:=i+1;
+  end;
+
+  if i=2 then
+  begin
+  var
+    frmPrincipal: TfrmPrincipal;
+  frmPrincipal:= TfrmPrincipal.Create(self);
+  frmPrincipal.Show;
+  end;
+
+
+end;
+
+procedure TfrmLogin.bxClick(Sender: TObject);
+begin
+if bx.IsChecked=true then
+edt_pass.Password:=true;
+
+if bx.IsChecked=false then
+edt_pass.Password:=false;
+end;
 
 end.

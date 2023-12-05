@@ -1,0 +1,21 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 912
+  Top = 263
+  ClientHeight = 584
+  ClientWidth = 364
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 912
+  Top = 263
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Fill.Color = xFF585858
+    Position.X = 32.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 257.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

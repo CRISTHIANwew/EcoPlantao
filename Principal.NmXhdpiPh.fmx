@@ -1,0 +1,13 @@
+inherited frmPrincipal_NmXhdpiPh: TfrmPrincipal_NmXhdpiPh
+  ClientHeight = 616
+  ClientWidth = 400
+  Padding.Left = 10.000000000000000000
+  Padding.Top = 10.000000000000000000
+  Padding.Right = 10.000000000000000000
+  Padding.Bottom = 10.000000000000000000
+  DesignerMasterStyle = 0
+  inherited Rectangle1: TRectangle
+    Size.Width = 380.000000000000000000
+    Size.Height = 596.000000000000000000
+  end
+end
